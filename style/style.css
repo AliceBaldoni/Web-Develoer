@@ -89,6 +89,9 @@ main {
     border-color: var(--color3);
     width: 65%;
 }
+.image {
+    width: 80%;
+}
 @media (max-width: 1000px) {
     .home_block {
         justify-content: center;

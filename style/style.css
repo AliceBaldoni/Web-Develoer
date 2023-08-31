@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&family=Montserrat:wght@100;200;300;400;600&display=swap');
+:root {
+    --color1: #131211;
+    --color2: #ffffff;
+    --color3: #39392C;
+    --color4: #000000;
+    --font1: 'Marcellus', serif;
+    --font2: 'Montserrat', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* height: 100vh; */
+    background-color: var(--color1);
+    color: var(--color2);
+    font-family: var(--font2);
+}
+.home {
+    background-image: url(/assets/131211.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 -250px;
+}
+.work {
+    background-image: url(/assets/131212.png);
+    background-size: 100%;
+    background-position: 0 -80px;
+}
+.about_contact {
+    background-image: url(/assets/131213.png);
+    background-size: 100%;
+}
+header {
+    background-color: var(--color3);
+    padding: 2%;
+    opacity: 0.7;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.link_menu {
+    font-family: var(--font2);
+    color: var(--color4);
+    font-weight: 500;
+    font-size: 1.45rem;
+    text-decoration: none;
+    border-left-style: solid;
+    border-width: 2px;
+    padding: 0 2%;
+}
+.link_menu:hover {
+    color: var(--color2);
+    border-color: var(--color2);
+}
+main {
+    margin: 5% 5% 5% 5%;
+}
+.home_block {
+    display: grid;
+    justify-content: flex-end;
+}
+.title {
+    display: grid;
+    gap: 5%;
+}
+.title_layout {
+    font-family: var(--font1);
+    font-size: 6.5rem;
+    font-weight: 400;
+}
+.subtitle_block {
+    display: flex;
+    justify-content: flex-end;
+}
+.subtitle {
+    text-align: center;
+    font-size: 2.15rem;
+    font-weight: 300;
+    border-right-style: solid;
+    border-width: 3px;
+    border-color: var(--color3);
+    width: 65%;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&family=Montserrat:wght@100;200;300;400;600&display=swap');
+:root {
+    --color1: #131211;
+    --color2: #ffffff;
+    --color3: #39392C;
+    --color4: #000000;
+    --font1: 'Marcellus', serif;
+    --font2: 'Montserrat', sans-serif;
+}
+.contact_block {
+    display: grid;
+    padding: 0% 0% 0% 10%;
+    gap: 30px;
+}
+.contact_link {
+    text-decoration: none;
+    font-family: var(--font2);
+    font-size: 1.75rem;
+    color: var(--color2);
+    display: flex;
+    gap: 25px;
+}

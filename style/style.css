@@ -18,10 +18,8 @@ body {
     font-family: var(--font2);
 }
 .home {
-    background-image: url(/assets/131211.png);
-    background-repeat: no-repeat;
+    background-image: url(/assets/131213.png);
     background-size: 100%;
-    background-position: 0 -250px;
 }
 .work {
     background-image: url(/assets/131212.png);
@@ -55,12 +53,14 @@ nav {
     color: var(--color2);
     border-color: var(--color2);
 }
-main {
-    margin: 5% 5% 5% 5%;
-}
 .home_block {
+    background-image: url(/assets/131211.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 -250px;
     display: flex;
     justify-content: flex-end;
+    padding: 10% 5% 10% 5%;
 }
 .home_session {
     display: flex;

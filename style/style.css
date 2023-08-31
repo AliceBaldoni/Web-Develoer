@@ -59,14 +59,19 @@ main {
     margin: 5% 5% 5% 5%;
 }
 .home_block {
-    display: grid;
+    display: flex;
     justify-content: flex-end;
 }
+.home_session {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
 .title {
-    display: grid;
     gap: 5%;
 }
 .title_layout {
+    display: flex;
     font-family: var(--font1);
     font-size: 6.5rem;
     font-weight: 400;
@@ -83,4 +88,12 @@ main {
     border-width: 3px;
     border-color: var(--color3);
     width: 65%;
+}
+@media (max-width: 1000px) {
+    .home_block {
+        justify-content: center;
+    }
+    .home_session {
+        width: auto;
+    }
 }

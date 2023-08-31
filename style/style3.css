@@ -8,8 +8,12 @@
     --font2: 'Montserrat', sans-serif;
 }
 .contact_block {
-    display: grid;
+    width: 50%;
     padding: 0% 0% 0% 10%;
+}
+.contact_session {
+    display: flex;
+    flex-direction: column;
     gap: 30px;
 }
 .contact_link {
@@ -19,4 +23,9 @@
     color: var(--color2);
     display: flex;
     gap: 25px;
+}
+@media (max-width: 1000px) {
+    .contact_block {
+        width: auto;
+    }
 }
